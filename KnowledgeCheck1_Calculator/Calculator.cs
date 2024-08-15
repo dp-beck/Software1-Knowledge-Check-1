@@ -27,5 +27,10 @@ namespace KnowledgeCheck1_Calculator
         {
             return first / second;
         }
+
+        public void IntErrorMessage()
+        {
+            Console.WriteLine("One or more of the numbers is not an int");
+        }
     }
 }
